@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  
+  <ion-toolbar>
+    <ion-title>Lista de Alumnos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="medium">Lista de Alumnos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <div>
+      <ion-item *ngFor="let alumno of alumnos">
+        <ion-label> {{alumno.nombre }}</ion-label>
+      </ion-item>
+    </div>
+    
+      <ion-button (click)="submitBack()" color="tertiary" expand="full">Volver</ion-button>
+  </div>
+</ion-content>

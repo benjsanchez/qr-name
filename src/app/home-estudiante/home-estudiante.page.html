@@ -1,0 +1,18 @@
+<ion-card>
+  <ion-card-content class="dark-bg">
+    <div class="welcome-container">
+      ¡Bienvenido, {{ nombreUsuario }}!
+      <br>
+      <div class="welcome-body">
+        <p class="welcome-text"></p>
+      </div>
+      
+      <div class="welcome-footer"></div>
+      <p><a routerLink="qr-asistencia">Escanear Qr</a></p>
+      <div class="button-container">
+        <button class="btn" (click)="cerrarSesion()">Cerrar Sesión</button>
+      </div>
+    </div>
+    
+  </ion-card-content>
+</ion-card>

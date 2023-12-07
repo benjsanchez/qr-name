@@ -1,0 +1,42 @@
+/* Estilos para el card de bienvenida */
+.welcome-card {
+  width: 300px; /* ajusta el ancho según sea necesario */
+  margin: 20px auto; /* centrar el card en la página */
+}
+
+/* Estilos para el mensaje de bienvenida */
+.welcome-message {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el enlace del QR */
+.qr-link {
+  color: blue; /* color del enlace */
+  text-decoration: none; /* quitar subrayado del enlace */
+}
+
+.qr-link:hover {
+  text-decoration: underline; /* subrayado al pasar el ratón por encima */
+}
+
+/* Estilos para el botón de cerrar sesión */
+.logout-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ff6347; /* color de fondo del botón */
+  color: white; /* color del texto del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* transición suave al cambiar color */
+}
+
+.logout-button:hover {
+  background-color: #e74c3c; /* color de fondo al pasar el ratón por encima */
+}
+
+
